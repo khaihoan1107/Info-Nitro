@@ -1,0 +1,14 @@
+{
+  "name": "@info-nitro/e2e",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cypress run",
+    "test:e2e:open": "cypress open",
+    "test:e2e:ci": "cypress run --browser chrome --headless"
+  },
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "typescript": "^5.4.5"
+  }
+}
